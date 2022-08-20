@@ -22,7 +22,7 @@
   color: white;
 }
 .images{
-  background: url('./images/india.jpg')no-repeat;
+  background: url('india.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -166,7 +166,7 @@ b{
 .table
 {
   background-color:#f0f0f0;
-  background: url('./images/toranamm.png')no-repeat;
+  background: url('toranamm.png')no-repeat;
             background-position: top;
   width: 50%;
   height: 3%;
@@ -179,7 +179,7 @@ b{
 }
 .perspective
 {
-   background: url("images/doorBorder.png");
+   background: url("doorBorder.png");
             background-repeat: no-repeat;
             background-position: center center;
             position: relative;
@@ -195,7 +195,7 @@ b{
         
        .table .perspective .thumb
         {
-            background: url("images/ClassDoor.png");
+            background: url("ClassDoor.png");
             background-repeat: no-repeat;
             background-position: center center;
             width: 147px;
@@ -255,7 +255,7 @@ b{
 
 .frontdoor
 {
-  background: url('./images/frontdoor1.jpg')no-repeat;
+  background: url('frontdoor1.jpg')no-repeat;
   position:absolute;
   top:0px;
   left:0px;
