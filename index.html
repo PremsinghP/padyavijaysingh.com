@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>పాడ్య వారి గృహప్రవేశ ఆహ్వాన శుభ పత్రిక</title>
+    <meta name="viewport" content="width=1024">  
+ <title>పాడ్య వారి గృహప్రవేశ ఆహ్వాన శుభ పత్రిక</title>
     <link rel="stylesheet" href="style.css">
    </head>
 <body>
@@ -73,8 +73,13 @@ element.addEventListener("click", togglefrontdoor);
 function togglefrontdoor() {
   element.classList.toggle("frontdoorOpen");
 }
-    </script>
+    
+var viewMode = getCookie("view-mode"); 
+if(viewMode == "desktop"){ 
+    viewport.setAttribute('content', 'width=1024'); 
+}else if (viewMode == "mobile"){ 
+    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no'); 
+} 
 </script>
-
 </body>
 </html>
